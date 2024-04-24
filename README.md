@@ -24,7 +24,7 @@ Dilate the Image
  
 ### Program:
 ```
-NAME: Yogesh rao S D
+NAME:  Yogesh rao S D
 REG.NO: 212222110055
 ```
 
@@ -38,7 +38,7 @@ import matplotlib.pyplot as plt
 ``` Python
 img = np.zeros((100,400),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img ,'Deepika',(60,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img ,'GS BOLT',(60,70),font,2,(255),5,cv2.LINE_AA)
 plt.imshow(img)
 plt.axis('off')
 ```
@@ -66,10 +66,13 @@ plt.axis('off')
 ```
 ### Output:
 #### Display the input Image
-![1dipu](https://github.com/deepikasrinivasans/erosion--dilation/assets/119393935/c9c02fa8-c7ff-4457-b075-67880acfa233)
+![Screenshot 2024-04-23 095251](https://github.com/yoheshkumar/erosion--dilation/assets/119393568/e29695ad-d112-4cfd-a288-134f572c4c5a)
+
 #### Display the Eroded Image
-![2dipu](https://github.com/deepikasrinivasans/erosion--dilation/assets/119393935/b5036700-a067-40d2-bd82-bfe4b3c503c3)
+![Screenshot 2024-04-23 095258](https://github.com/yoheshkumar/erosion--dilation/assets/119393568/d2e36fbe-d149-4a52-872d-d2e140956e06)
+
 #### Display the Dilated Image
-![3dipu](https://github.com/deepikasrinivasans/erosion--dilation/assets/119393935/9a91dfaa-76cf-400d-a8d7-ac67c41acf62)
+![Screenshot 2024-04-23 095303](https://github.com/yoheshkumar/erosion--dilation/assets/119393568/87de0bf4-107f-47d9-9f9b-5bc8f518706d)
+
 ## Result
 Thus the generated text image is eroded and dilated using python and OpenCV.
